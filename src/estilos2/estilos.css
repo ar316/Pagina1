@@ -1,0 +1,117 @@
+@import url('https://fonts.google');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppines', sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(241, 241, 241), rgb(15, 15, 15));
+    
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:30px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 10000;
+}
+header .logo{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    font-size:2em;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+header ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    color: rgb(0, 0, 0);
+    border-radius:20px;
+    font-size:30px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background-color:white;
+    color: black;
+}
+section{
+    
+    position:relative;
+    display:flex;
+    padding: 100px;
+    justify-content:center;
+    align-items:center;
+}
+section img{
+    color: white;
+  
+    display:block;
+    margin:auto;
+    margin-top: 80px;
+    align-items:center;
+
+   
+    object-fit: cover;
+}
+#text{
+    position:absolute;
+    color:white;
+    white-space: nowrap;
+    font-size:150px;
+    
+    margin:auto;
+    margin-top: 900px;
+    padding: 40px;
+}
+#btn{
+    position:absolute;
+    text-decoration: none;
+    padding:8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #000000;
+    font-size:30px ;
+    
+    margin-top: 1150px;
+    padding: 20px;
+}
+#btn:hover{
+    background-color:rgb(218, 119, 119);
+    color: black;
+}
+.sec{
+    position: absolute;
+    padding: 20px;
+    background:rgb(0, 0, 0);
+    margin-top: 1800px;
+    
+}
+.sec h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+    
+    color: white;
+}
+.sec p{
+    color: white;
+    font-size:40px;;
+    padding: 0 200px 0 0;
+    text-align: justify;
+}
